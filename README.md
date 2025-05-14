@@ -23,32 +23,12 @@ It processes real-time outage and inventory events, generates AI-driven action r
 ```bash
 git clone https://github.com/kamchettysadhika/RealitySync-.git
 cd RealitySync-
-Step 2: Install dependencies
-bash
-Copy
+**### Step 2: Install dependencies**
+
+```bash
 npm install
-Step 3: Setup environment and start backend
-Create a .env file with your Slack webhook URLs and other necessary environment variables.
 
-Start the backend service:
+**### Step 3: Setup environment**
 
 bash
-Copy
-npm run start
-This will start event listeners for outage and inventory streams and connect to Slack for notifications.
-
-Slack Integration
-Once running, RealitySync listens for anomalies and outages.
-
-When an anomaly is detected, an AI-generated action recommendation is sent to the relevant Slack channel automatically.
-
-You can use Slack commands such as /checkin <location> to interact with RealitySync and track crew check-ins.
-
-Testing
-You can simulate events by publishing test messages to Redis streams or using provided test scripts.
-
-Notes
-Frontend is under development and not included in this repository.
-
-Backend and Slack integration are fully functional and can be tested independently.
-
+Create a `.env` file with your Slack webhook URLs and any other necessary environment variables.
