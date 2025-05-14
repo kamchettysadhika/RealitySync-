@@ -21,16 +21,16 @@ cd RealitySync-
 Step 2: Install dependencies
 bash
 Copy
+Edit
 npm install
-```bash
 Step 3: Setup environment
 Create a .env file with your Slack webhook URLs and any other necessary environment variables.
-```bash
+
 Step 4: Start the backend service
 bash
 Copy
+Edit
 npm run start
-```bash
 This will start event listeners for outage and inventory streams and connect to Slack for notifications.
 
 Slack Integration
@@ -53,3 +53,6 @@ For questions or support, contact: ksadhika10@gmail.com
 
 yaml
 Copy
+Edit
+
+---
