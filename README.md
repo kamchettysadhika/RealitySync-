@@ -24,7 +24,9 @@ It processes real-time outage and inventory events, generates AI-driven action r
 
 ```bash
 Copy
-npm install
+npm install```
+
+
 3.Create a .env file with your Slack webhook URLs and other necessary environment variables.
 Start the backend service:
 
