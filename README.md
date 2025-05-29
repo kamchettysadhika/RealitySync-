@@ -52,4 +52,4 @@ Technical Innovation
 •	First system in the company to successfully integrate AI decision-making with existing enterprise tools
 •	Created reusable authentication framework adopted by 3 other internal projects
 •	Established new standards for AI explainability in operational systems
-![image](https://github.com/user-attachments/assets/6e17b841-6c3a-4a4c-85a7-93f740de2e89)
+
